@@ -1,0 +1,375 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@font-face {
+    font-family: "OneDirection";
+    src: url(./img/OneDirection.ttf);
+}
+
+
+
+/* section accesible */
+
+#sectionaccesible {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: rgba(211, 42, 42, 0.856);
+    padding: 0.5rem;
+}
+
+#sectionaccesible li {
+    margin-left: 3rem;
+}
+
+#sectionaccesible a {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: rgb(143, 17, 17);
+}
+
+#sectionaccesible a:hover, #sectionaccesible a:focus {
+    background-color: rgba(139, 71, 71, 0.685);
+    color: black;
+}
+
+#sectionaccesible:link, #sectionaccesible:visited, #sectionaccesible:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* nav */
+
+nav {
+    background-color: rgba(211, 42, 42, 0.856);
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 1rem;
+    background-color: rgb(143, 17, 17);
+}
+
+nav a:hover, nav a:focus {
+    background-color: rgba(139, 71, 71, 0.685);
+    color: black;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* header */
+
+header {
+    background-color: rgb(113, 177, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: white 1px 1px 9px;
+    height: 7rem;
+}
+
+h1 {
+    font-family: OneDirection;
+    font-size: 4rem;
+}
+
+header img {
+    width: 5rem;
+    height: 5rem;
+}
+
+#logochico {
+    width: 4rem;
+    height: 6rem;
+    margin-right: 6.2rem;
+    align-self: flex-start;
+    border-radius: 0rem 0rem 1rem 1rem;
+
+}
+
+
+
+/* body */
+
+body {
+    background-color: teal;
+}
+
+
+
+/* section */
+
+#primersection {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: center;
+}
+
+
+
+/* articles */
+
+/* ARTICLE ONE DIRECTION */
+article {
+    border-width: 1vh;
+    border-style: solid;
+    margin: 1rem;
+}
+
+h2 {
+    font-family: OneDirection;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.ponedirection {
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#article1 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(133, 133, 133);
+    border-radius: 1rem 0rem 0rem 1rem;
+    width: 50%;
+    padding-bottom: 3rem;
+}
+
+#article2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(100, 100, 100);
+    border-radius: 0rem 1rem 1rem 0rem;
+    width: 50%;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#imgonedirection {
+    width: 90%;
+    margin: auto;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+#figcaptiononedirection {
+    margin-left: 2rem;
+}
+
+#imgband {
+    width: 30%;
+}
+
+#sectionimgwhatmakes {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#imgwhatmakes {
+    width: 14rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+#figcaptionwhatmakes {
+    font-size: 80%;
+}
+
+#imglive {
+    width: 14rem;
+    float: right;
+    margin-right: 2rem;
+}
+
+#figcaptionlive {
+    font-size: 80%;
+}
+
+
+
+/* ARTICLE ARTISTAS */
+
+#sectiondatosartistas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sectiontitulos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionartistas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.acomodarfotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+h3 {
+    font-family: OneDirection;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.imgsolos {
+    width: 80%;
+}
+
+.imgalbumes {
+    width: 90%;
+}
+
+
+
+/* PAGINA PRESENTACIONES */
+
+#sectionpresentaciones {
+    display: flex;
+}
+
+#mainpresentaciones {
+    width: 79%;
+}
+
+aside {
+    width: 21%;
+    background-color: rgba(143, 46, 46, 0.74);
+}
+
+.figdatos {
+    margin-bottom: 1rem;
+}
+
+
+
+/* table */
+
+#sectiontable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+table {
+    border: 0.3vh solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption {
+    background-color: rgba(189, 66, 66, 0.74);
+    font-family: OneDirection;
+    font-size: 2rem;
+}
+
+caption, tr, th, td {
+    border: 0.3vh solid black;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+.portada {
+    width: 40%;
+}
+
+.imgtable {
+    width: 70%;
+    margin: auto;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(207, 137, 207, 0.658);
+}
+
+tr:nth-child(even) {
+    background-color: rgba(137, 207, 190, 0.658);
+}
+
+.pdatos {
+    text-align: justify;
+}
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 10rem;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+#segundosection {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 3rem;
+}
+
+#tercersection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer img {
+    width: 3rem;
+}
